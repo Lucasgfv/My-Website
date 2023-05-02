@@ -68,7 +68,65 @@ nav{
     font-size: 35px;
     letter-spacing: 2px;
 }
-
+/*----------------------------Section---------------------------------*/
+.about{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.my-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.my-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.my-text h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+span{
+    color: #6b2fb9;
+}
+.my-text p{
+    color: #7f00ff;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: #5d02d3;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 10px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
 /*----------------------------Footer---------------------------------*/
 footer{
     
